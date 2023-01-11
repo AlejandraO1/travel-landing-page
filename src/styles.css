@@ -1,6 +1,7 @@
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -52,7 +53,7 @@ header a {
 }
 
 /*Main*/
-main {
+.primary-section {
   background-color: #ffff;
   padding: 25px 15px;
 }
@@ -66,6 +67,37 @@ main .grid {
 .main-japan-image {
   width: 100%;
   height: auto;
+}
+
+.secondary-section {
+  background-color: #f8f8f8;
+  padding: 25px 15px;
+}
+
+.secondary-section .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: #ffff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card h4 {
+  font-size: 16px;
 }
 
 /*Footer*/
