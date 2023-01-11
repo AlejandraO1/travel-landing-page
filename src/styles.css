@@ -81,6 +81,7 @@ main .grid {
 
 .card {
   background-color: #ffff;
+  padding: 10px;
 }
 
 .card img {
@@ -89,15 +90,15 @@ main .grid {
 }
 
 .card h3 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .card p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .card h4 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /*Footer*/
@@ -105,7 +106,7 @@ footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
     url("images/footer-japan.jpg");
   color: #ffff;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 25px 15px;
 }
@@ -145,5 +146,13 @@ section ul {
 
   header h3 {
     font-size: 25px;
+  }
+
+  main .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .secondary-section .grid {
+    grid-template-columns: 1fr;
   }
 }
