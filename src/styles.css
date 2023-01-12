@@ -79,6 +79,7 @@ main .grid {
 .main-japan-image {
   width: 100%;
   height: auto;
+  filter: brightness(1.25);
 }
 
 /*Secondary Section */
@@ -178,12 +179,22 @@ footer a {
   color: #ffff;
   text-decoration: none;
   opacity: 0.6;
+  transition: all 200ms ease-in-out;
+}
+
+footer a:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 
 footer ul {
   list-style: none;
   padding-left: 0;
   font-size: 16px;
+}
+
+.footnote {
+  opacity: 0.6;
 }
 
 /*Responsive*/
@@ -214,6 +225,18 @@ footer ul {
 
   .secondary-section .grid {
     grid-template-columns: 1fr;
+  }
+
+  .secondary-section h4 {
+    font-size: 20px;
+  }
+
+  .secondary-section p {
+    font-size: 18px;
+  }
+
+  .secondary-section ul {
+    font-size: 18px;
   }
 
   .tertiary-section {
