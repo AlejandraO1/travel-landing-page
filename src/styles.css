@@ -6,7 +6,8 @@ h4 {
 }
 
 body {
-  background-color: rgb(31, 29, 29);
+  background-color: #c55353;
+  cursor: default;
 }
 
 .container {
@@ -27,14 +28,14 @@ header {
 }
 
 header h1 {
-  font-size: 75px;
+  font-size: 85px;
   line-height: 1;
   margin: 0;
   font-weight: 700;
   margin: 30px 0;
 }
 
-header h3 {
+header h2 {
   font-size: 45px;
   line-height: 1.5;
   font-weight: 400;
@@ -53,9 +54,19 @@ header a {
 }
 
 /*Main*/
+/*Primary Section */
 .primary-section {
   background-color: #ffff;
   padding: 25px 15px;
+}
+
+.primary-section h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.primary-section p {
+  font-size: 18px;
 }
 
 main .grid {
@@ -69,9 +80,17 @@ main .grid {
   height: auto;
 }
 
+/*Secondary Section */
 .secondary-section {
   background-color: #f8f8f8;
   padding: 25px 15px;
+}
+
+.secondary-section h2 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 10px;
 }
 
 .secondary-section .grid {
@@ -90,7 +109,7 @@ main .grid {
 }
 
 .card h3 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .card p {
@@ -99,11 +118,25 @@ main .grid {
 
 .card h4 {
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
+.card ul {
+  list-style: circle;
+  margin-left: 15px;
+  opacity: 0.6;
+}
+
+/*Tertiary Section*/
 .tertiary-section {
   background-color: #ffff;
   padding: 25px 15px;
+}
+
+.tertiary-section h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .tertiary-section .grid {
@@ -130,7 +163,7 @@ footer {
 footer .grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 25px;
+  grid-gap: 15px;
 }
 
 section p {
