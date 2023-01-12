@@ -171,4 +171,8 @@ section ul {
   .secondary-section .grid {
     grid-template-columns: 1fr;
   }
+
+  .tertiary-section .grid {
+    grid-template-columns: 1fr;
+  }
 }
