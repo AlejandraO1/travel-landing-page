@@ -70,7 +70,7 @@ header a {
   opacity: 0.6;
 }
 
-main .grid {
+.primary-section .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 25px;
@@ -211,7 +211,7 @@ footer ul {
     font-size: 25px;
   }
 
-  main .grid {
+  .primary-section .grid {
     grid-template-columns: 1fr;
   }
 
