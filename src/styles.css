@@ -101,6 +101,22 @@ main .grid {
   font-size: 18px;
 }
 
+.tertiary-section {
+  background-color: #ffff;
+  padding: 25px 15px;
+}
+
+.tertiary-section .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
 /*Footer*/
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
