@@ -216,7 +216,7 @@ footer li {
   }
 
   header h2 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .grid-2-col {
@@ -227,11 +227,9 @@ footer li {
     grid-template-columns: 1fr;
   }
 
-  .primary-section {
-    padding: 35px;
-  }
-
-  .secondary-section {
+  .primary-section,
+  .secondary-section,
+  .tertiary-section {
     padding: 35px;
   }
 
@@ -239,20 +237,61 @@ footer li {
     font-size: 20px;
   }
 
-  .secondary-section p {
-    font-size: 18px;
-  }
-
+  .secondary-section p,
   .secondary-section ul {
     font-size: 18px;
-  }
-
-  .tertiary-section {
-    padding: 35px;
   }
 
   .footer-grid {
     grid-template-columns: 1fr;
     grid-gap: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    padding: 45px 0;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+
+  header h2 {
+    font-size: 25px;
+  }
+
+  header a {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  .primary-section h2,
+  .secondary-section h2,
+  .tertiary-section h2 {
+    font-size: 25px;
+  }
+
+  .primary-section,
+  .secondary-section,
+  .tertiary-section {
+    padding: 25px;
+  }
+
+  .primary-section h3,
+  .secondary-section h3 {
+    font-size: 20px;
+  }
+
+  footer li,
+  footer p,
+  .primary-section p,
+  .secondary-section p,
+  .secondary-section li,
+  .footnote {
+    font-size: 14px;
+  }
+
+  .secondary-section h4 {
+    font-size: 16px;
   }
 }
