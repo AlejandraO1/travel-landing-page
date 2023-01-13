@@ -221,8 +221,8 @@ footer li {
     font-size: 50px;
   }
 
-  header h3 {
-    font-size: 25px;
+  header h2 {
+    font-size: 30px;
   }
 
   .primary-section .grid {
@@ -258,6 +258,10 @@ footer li {
   }
 
   .tertiary-section .grid {
+    grid-template-columns: 1fr;
+  }
+
+  footer .grid {
     grid-template-columns: 1fr;
   }
 }
