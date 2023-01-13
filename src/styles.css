@@ -250,14 +250,11 @@ footer li {
 
 @media (max-width: 400px) {
   header {
-    padding: 45px 0;
-  }
-  header h1 {
-    font-size: 40px;
+    padding: 50px 0;
   }
 
-  header h2 {
-    font-size: 25px;
+  header h1 {
+    font-size: 40px;
   }
 
   header a {
@@ -265,7 +262,8 @@ footer li {
     font-size: 16px;
   }
 
-  .primary-section h2,
+  header h2,
+  .primary-section h3,
   .secondary-section h2,
   .tertiary-section h2 {
     font-size: 25px;
@@ -277,21 +275,23 @@ footer li {
     padding: 25px;
   }
 
-  .primary-section h3,
   .secondary-section h3 {
     font-size: 20px;
   }
 
-  footer li,
-  footer p,
   .primary-section p,
   .secondary-section p,
-  .secondary-section li,
-  .footnote {
-    font-size: 14px;
+  .secondary-section li {
+    font-size: 16px;
   }
 
   .secondary-section h4 {
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  footer li,
+  footer p,
+  .footnote {
+    font-size: 14px;
   }
 }
